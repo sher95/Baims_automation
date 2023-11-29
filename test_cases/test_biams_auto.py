@@ -3,11 +3,12 @@ import pytest
 from pages.login_page_auto import Login
 from pages.course_player_page import CoursePlayer
 """
-1. I divided to classes, to use later and add related test cases
-2. Before run course make sure course not opened before, otherwise join and start pages not appear
+1. I divided into classes, to use later and added related test cases
+2. Before running course make sure course has not opened before, otherwise join and start pages not appear
 3. Each test method is configured to open a new Chrome browser instance.
 Browser setup is isolated for each individual test method, providing a clean and independent testing environment.
 This helps in preventing potential interference between test methods and ensures reliable and reproducible test executions.
+4. I didn't use Data Driven Test because only 2 test cases to run
 """
 
 
